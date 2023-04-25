@@ -28,9 +28,9 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://hello-kubernetes-service.default",
+          "raw": "http://hello-kubernetes-service.staging",
           "protocol": "http",
-          "host": ["hello-kubernetes-service", "default"]
+          "host": ["hello-kubernetes-service", "staging"]
         }
       },
       "response": []
