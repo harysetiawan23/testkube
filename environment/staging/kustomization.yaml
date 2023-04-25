@@ -1,0 +1,7 @@
+commonLabels:
+  app: hello-kubernetes
+bases:
+  - "../../base"
+patchesStrategicMerge:
+  - "deployment.yaml"
+  - "service.yaml"
